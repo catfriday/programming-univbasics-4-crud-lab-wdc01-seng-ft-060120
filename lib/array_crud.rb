@@ -1,24 +1,30 @@
-def create_an_empty_array
-  
+def create_an_empty_array 
+  []
 end
 
 def create_an_array
-  
+  aray= ["Array","1", "2", "4"]
 end
 
 def add_element_to_end_of_array(array, element)
+  array=["array", "element"]
+  array<<"arrays!" 
   
-end
+end 
 
 def add_element_to_start_of_array(array, element)
-  
+  array=["array", "element"]
+  array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
+  array=["array", "arrays!"]
+  array=array!s.pop
   
 end
 
 def remove_element_from_start_of_array(array)
+  
   
 end
 
